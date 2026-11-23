@@ -1,6 +1,6 @@
 # SquidForm Scanner Tools (plg_squidform_scannertools) 1.0.3
 
-Optional add-on for SquidForm 1.0.0 or later. It adds:
+Optional add-on for [SquidForm](https://github.com/ChaoticFish/squidform) 1.0.0 or later ([all add-ons](https://github.com/ChaoticFish/squidform#add-ons)). It adds:
 
 - **"ClamAV program" scan mode**: uploads are scanned by running `clamdscan` or `clamscan`. Use it when the ClamAV daemon's socket isn't available to PHP. The daemon mode (in SquidForm itself) doesn't need this add-on.
 - **The EICAR test** in Components → SquidForm → Check this server: sends the industry-standard harmless test file to your scanner, to prove it catches things.
