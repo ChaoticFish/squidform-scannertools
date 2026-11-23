@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="squidform" method="upgrade">
+	<name>plg_squidform_scannertools</name>
+	<author>Chaotic Fish Design</author>
+	<creationDate>2026-11</creationDate>
+	<copyright>(C) 2026 Chaotic Fish Design</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<version>1.0.3</version>
+	<description>PLG_SQUIDFORM_SCANNERTOOLS_XML_DESCRIPTION</description>
+	<namespace path="src">SquidForm\Plugin\Squidform\ScannerTools</namespace>
+	<files>
+		<folder plugin="scannertools">services</folder>
+		<folder>src</folder>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/plg_squidform_scannertools.ini</language>
+		<language tag="en-GB">en-GB/plg_squidform_scannertools.sys.ini</language>
+	</languages>
+</extension>
